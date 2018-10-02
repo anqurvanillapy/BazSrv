@@ -1,0 +1,16 @@
+srv foo {
+  proc plus (x, y) -> z;
+  proc minus (x, y) -> z;
+}
+
+msg x {
+  n number;
+}
+
+msg y {
+  n number;
+}
+
+msg z {
+  n number;
+}
